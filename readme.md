@@ -21,6 +21,8 @@ I hope ya'll liking it. You got permissions to improve this project.
 #Adding New Functions:
 Core -> system.php: U can add all the new stuff to the system.php... Be alert while updating stuff... Since it's kinda sensitive!
 
+
+If there are some bugs / errors please contact me in my discord server: https://discord.gg/AhQxjQA
 Regards:
 Developer / Owner:
 Milan
