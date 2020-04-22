@@ -13,7 +13,7 @@
 	
 <p class="lines">------------------------</p>
 	
-<p class="footer-name">Dit is gemaakt door Milan</p>
+<p class="footer-name"><? $NL['Footer'] ?></p>
     
     </body>
 

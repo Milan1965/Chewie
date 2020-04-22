@@ -3,4 +3,5 @@
 $NL = array("Mobile" => "Mobile Scaled",
  			"PC" => "PC Scaled",
   			"Uitleg" => "Soon",
-  			"Title" => "Cosmetic");
+  			"Title" => "Cosmetic"
+  			"Footer" => "Dit is gemaakt door Milan");
