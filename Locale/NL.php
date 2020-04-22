@@ -2,4 +2,5 @@
 
 $NL = array("Mobile" => "Mobile Scaled",
  			"PC" => "PC Scaled",
-  			"Uitleg" => "Soon");
+  			"Uitleg" => "Soon",
+  			"Title" => "Cosmetic");
