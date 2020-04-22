@@ -3,7 +3,7 @@
 ## Supported Versions
 Below this section are the supported versions which have security or versions who don't.
 
-| Version | Supported          |
+| Version |       Stable       |
 | ------- | ------------------ |
 |   1.0   | :white_check_mark: |
 
