@@ -13,9 +13,9 @@
 	
 		<div id="scale-indicator-box">
 			
-<p class="check-if-mobile">Mobile Scaled</p>
+<p class="check-if-mobile"><? $NL['Mobile'] ?></p>
 			
-	<p class="check-if-computer">PC Scaled</p>
+	<p class="check-if-computer"><? $NL['PC'] ?></p>
 			
 </div>
 	
