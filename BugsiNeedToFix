@@ -1,0 +1,7 @@
+Underneath are the bugs i am trying to solve!!
+
+----
+1. Reset Button doesn't reset (This is probably the case that the cookie value isn't the same as PHPSESSID)
+2. Some text array failures!
+
+If you encounter more bugs, please let me know on my discord! .Milan.#8670
