@@ -1,20 +1,19 @@
 <?php
-
+//Server Connectie
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', 'root');
 define('DB_NAME', 'Chewie');
  
-/* Attempt to connect to MySQL database */
+
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
  
 
 if($link === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
+    die("ERROR: Kan niet verbinden met het database: " . mysqli_connect_error());
 } else {
 
-
-    echo 'succeed';
+    echo '';
 }
 
 //Website Settings (Soon)
