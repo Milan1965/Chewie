@@ -1,16 +1,20 @@
 <?php
-// Maakt verbinding met de server
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$db = "Chewie";
+
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'root');
+define('DB_NAME', 'Chewie');
+ 
+/* Attempt to connect to MySQL database */
+$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+ 
+
+if($link === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+} else {
 
 
-$conn = new mysqli($servername, $username, $password, $db);
-
-
-if ($conn->connect_error) {
-  die("Verbinding onderbroken " . $conn->connect_error);
+    echo 'succeed';
 }
 
 //Website Settings (Soon)
