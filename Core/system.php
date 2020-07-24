@@ -17,21 +17,6 @@ echo '<h2>Score Multiplier: <br><hr> x' . $amount . '</h2>';
 
 
 
-$cookie_file = './cookies.txt';
-
-if (! file_exists($cookie_file) || ! is_writable($cookie_file)){
-    echo 'Cookie TXT kon niet gevonden worden!.';
-    exit;
-	
-}//Veilige opslag functie!
-
-$ch = curl_init (html_entity_decode("http://localhost/Core/system.php"));
-curl_setopt ($ch, CURLOPT_COOKIEJAR, $cookie_file);
-curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt ($ch, CURLOPT_HEADER, 1);
-curl_setopt ($ch, CURLOPT_COOKIEJAR, realpath($cookie_file) );
-
-$output = curl_exec ($ch);
 
 
 

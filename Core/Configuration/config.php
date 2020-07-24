@@ -2,7 +2,7 @@
 
 //Website Settings (Soon)
 
-$SSL_Encryption = 'HTTP';
+$SSL_Encryption = 'http';
 
 $URL_Redirect = 'localhost';
 
