@@ -1,4 +1,17 @@
 <?php
+// Maakt verbinding met de server
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$db = "Chewie";
+
+
+$conn = new mysqli($servername, $username, $password, $db);
+
+
+if ($conn->connect_error) {
+  die("Verbinding onderbroken " . $conn->connect_error);
+}
 
 //Website Settings (Soon)
 
